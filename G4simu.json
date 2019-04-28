@@ -1,0 +1,49 @@
+{
+    "init_value": {
+        "int": -1,
+        "double": 0
+    },
+    "branch": {
+        "EventID": "int",
+        "TrackID": "int",
+        "Edep": "double",
+        "Posx": "double",
+        "Posy": "double",
+        "Posz": "double",
+        "xid": "int",
+        "yid": "int"
+    },
+    "maxhit": 15,
+    "generator": {
+        "number": 10,
+        "name": "proton",
+        "energyDistribution": {
+            "type": "single",
+            "single": {
+                "E": 10,
+                "unit": "MeV"
+            },
+            "UniformRand": {
+                "E": 10,
+                "unit": "MeV"
+            }
+        },
+        "hz": "hz.root",
+        "hxy": "hxy.root",
+        "hxyz": "hxyz.root",
+        "particlePosition": [
+            0,
+            0,
+            -5
+        ],
+        "unit": "mm",
+        "RandomDirection": true,
+        "cosTheta": 0.98,
+        "particleDirection": [
+            0,
+            0,
+            1
+        ],
+        "EnergyDistribution"
+    }
+}
